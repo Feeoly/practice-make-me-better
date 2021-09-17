@@ -18,7 +18,7 @@ function compose(...fns) {
  */
 function compose (...fns) {
     if(!fns.length) return (args)=>args
-    if(fns.length===1) return fn1[0]
+    if(fns.length===1) return fns[0]
     return fns.reduce((acc, cur)=>{
         return (...args)=>{
             return acc(cur(...args))
