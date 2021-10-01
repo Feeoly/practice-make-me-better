@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        html,
+        body {
+            position: fixed;
+            overflow: hidden;
+            background: red;
+            margin: 0;
+        }
+        .mainwrapper {
+            background: yellowgreen;
+            width: 100vw;
+            height: 100vh;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
+        }
+        .long-list{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainwrapper">
+        <div class="long-list">body</div>
+        <input value="palceholder">
+    </div>
+</body>
+</html>
